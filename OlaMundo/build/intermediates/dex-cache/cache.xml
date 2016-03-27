@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/jimy/AndroidStudioProjects/OlaMundo/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/home/jimy/AndroidStudioProjects/OlaMundo/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.0_7e2b1a00495cd44efcbce455c1bc9829b7b299f3.jar" />
+    </item>
+    <item
+        jar="/home/jimy/AndroidStudioProjects/OlaMundo/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/home/jimy/AndroidStudioProjects/OlaMundo/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.0_5df69f9de9a0a8f689ce5f784f1d6de703eaca8d.jar" />
+    </item>
+    <item
+        jar="/home/jimy/AndroidStudioProjects/OlaMundo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/home/jimy/AndroidStudioProjects/OlaMundo/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0_6db4df9e851abffbbf3bf40a1ef68a30ab408292.jar" />
+    </item>
+    <item
+        jar="/home/jimy/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/home/jimy/AndroidStudioProjects/OlaMundo/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0_2d5a6deaa99833f0c863484b4e030e6c19b5d8c7.jar" />
+    </item>
+    <item
+        jar="/home/jimy/AndroidStudioProjects/OlaMundo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/home/jimy/AndroidStudioProjects/OlaMundo/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.0_2f03575458a4d028264d6a88922c4f96fbfb2692.jar" />
+    </item>
+    <item
+        jar="/home/jimy/AndroidStudioProjects/OlaMundo/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/home/jimy/AndroidStudioProjects/OlaMundo/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.0_c5fad31e6e473086fbf2bebb92349a6d1bbe8be2.jar" />
+    </item>
+
+</items>
