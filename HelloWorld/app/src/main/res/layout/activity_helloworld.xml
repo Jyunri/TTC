@@ -6,12 +6,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="HelloWorld"
+        android:text="@string/app_name"
         android:id="@+id/tvHelloWorld"/>
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text = "Me aperte"
+        android:text = "@string/txt_meaperte"
         android:id="@+id/btMeAperte"/>
 </LinearLayout>
