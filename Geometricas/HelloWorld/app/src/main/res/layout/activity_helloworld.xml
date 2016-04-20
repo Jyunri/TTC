@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_gravity="center"
+        android:src="@drawable/geometria"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Geometria Básica"
+        android:gravity="center"
+        android:textSize="25dp"/>
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        tools:context=".RadioButtonActivity"
+        android:onClick="onRadioButtonClicked"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retângulo"
+        android:onClick="onRadioButtonClicked"
+        android:id="@+id/radioButton1"
+        android:checked="true"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quadrado"
+        android:onClick="onRadioButtonClicked"
+        android:id="@+id/radioButton2" />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Paralelogramo"
+        android:onClick="onRadioButtonClicked"
+        android:id="@+id/radioButton3" />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Triângulo"
+        android:onClick="onRadioButtonClicked"
+        android:id="@+id/radioButton4" />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trapézio"
+        android:onClick="onRadioButtonClicked"
+        android:id="@+id/radioButton5" />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Circuferência"
+        android:onClick="onRadioButtonClicked"
+        android:id="@+id/radioButton6" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="30px"
+        android:layout_marginBottom="30px"
+        android:background="@android:color/darker_gray"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retângulo"
+        android:gravity="center"
+        android:id="@+id/txtObjeto"
+        android:textSize="15dp" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="a:"
+            android:id="@+id/txt1" >
+        </TextView>
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editX"
+            android:maxLength="6"
+            android:hint="0.00"
+            android:inputType="number|numberDecimal">
+        </EditText>
+
+        <Space
+            android:layout_width="50px"
+            android:layout_height="match_parent" />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="b:"
+            android:id="@+id/txt2" >
+        </TextView>
+
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editY"
+            android:maxLength="6"
+            android:hint="0.00"
+            android:inputType="number|numberDecimal">
+        </EditText>
+
+        <Space
+            android:layout_width="50px"
+            android:layout_height="match_parent" />
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="c:"
+            android:visibility="gone"
+            android:id="@+id/txt3" >
+        </TextView>
+
+        <EditText android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editZ"
+            android:maxLength="6"
+            android:visibility="gone"
+            android:hint="0.00"
+            android:inputType="number|numberDecimal">
+        </EditText>
+    </LinearLayout>
+
+
+
+    <Button
+    android:id="@+id/botao"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/app_name2"
+    />
+
+
+</LinearLayout>
+
+</ScrollView>
