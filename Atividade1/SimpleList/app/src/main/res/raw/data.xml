@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Avengers">
+        <item >Ironman</item>
+        <item >CaptainAmerica</item>
+        <item >Blackwidow</item>
+        <item >Hawkeye</item>
+        <item >Thor</item>
+        <item >Hulk</item>
+        <item >SpiderMan</item>
+    </string-array>
+</resources>
