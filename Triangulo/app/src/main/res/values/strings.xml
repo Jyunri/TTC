@@ -1,6 +1,0 @@
-<resources>
-    <string name="app_name">Triangulo</string>
-    <string name="str_la">Insira aqui o lado a</string>
-    <string name="str_lb">Insira aqui o lado b</string>
-    <string name="str_lc">Insira aqui o lado c</string>
-</resources>
